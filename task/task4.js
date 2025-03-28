@@ -11,14 +11,14 @@ let student = {
 //using object.key
 
 
-// let propertyCount = Object.keys(student).length;
-// console.log(propertyCount)
+let propertyCount = Object.keys(student).length;
+console.log(propertyCount)
 
 //using for in
 
-let count = 0;
-for (let key in student) {
-    if (student.hasOwnProperty(key)) {
-        count++;
-    }
-}
+// let count = 0;
+// for (let key in student) {
+//     if (student.hasOwnProperty(key)) {
+//         count++;
+//     }
+// }
