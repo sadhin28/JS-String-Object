@@ -26,3 +26,18 @@ delete college.class;
 //delate property from an object
 delete college.unique
 console.log(college)
+const myObject = {
+    a: 1,
+    b: 2,
+    c: 3
+   };
+   
+   for (let prop in myObject) {
+    console.log(myObject[prop]);
+   }
+   const x = ""
+if(!x.length){
+console.log("Hey")
+}else{
+console.log("Hi")
+}
