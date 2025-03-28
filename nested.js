@@ -22,3 +22,7 @@ console.log(college.unique.result.gpa)
 console.log(college.unique.result.merit)
 college.events[1]='16 December'
 console.log(college.events[1]);
+delete college.class;
+//delate property from an object
+delete college.unique
+console.log(college)
