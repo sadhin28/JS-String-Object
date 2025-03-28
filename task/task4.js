@@ -22,4 +22,3 @@ for (let key in student) {
         count++;
     }
 }
-console.log(count);
